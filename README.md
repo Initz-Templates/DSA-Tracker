@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+## Try on Initializ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## On Dev 
+[![Kubeday India](https://res.cloudinary.com/daosik5yi/image/upload/f_auto,q_auto/pntsnjpa1sxbc2d02q9n)](https://console.dev.initializ.ai/create-app/?clone=https://github.com/initializ-templates/DSA-Tracker&repo_name=DSA-Tracker&description=♾%20This%20app%20keeps%20Personalised%20track%20of%20questions%20completed%20in%20dsa%20preparation&github=true)
 
-## Available Scripts
+## On Prod 
+[![Kubeday India](https://res.cloudinary.com/daosik5yi/image/upload/f_auto,q_auto/pntsnjpa1sxbc2d02q9n)](https://console.initializ.ai/create-app/?clone=https://github.com/initializ-templates/DSA-Tracker&repo_name=DSA-Tracker&description=♾%20This%20app%20keeps%20Personalised%20track%20of%20questions%20completed%20in%20dsa%20preparation&github=true)
 
-In the project directory, you can run:
+## Prerequisite 
+### Must have an Account on [Initializ.ai](https://console.initializ.ai/register/)<br><br>
 
-### `npm start`
+#### Steps to Create Account
+ Step 1: [SignUp](https://console.initializ.ai/register/) <br>
+ <br>[![Sign Up](https://res.cloudinary.com/dd4xje8fc/image/upload/v1717773727/image_1_eaxyhp.png)](https://console.initializ.ai/register/)<br><br>
+ Step 2: Verify Your Email<br><br>
+ Step 3: [Sign In](https://console.initializ.ai/login/) <br><br>[![Sign In](https://res.cloudinary.com/dd4xje8fc/image/upload/v1717773726/image_2_pi56ah.png)](https://console.initializ.ai/login/)<br><br>
+ Step 4: [Deploy on Initializ](https://console.initializ.ai/create-app/?clone=https://github.com/initializ-templates/DSA-Tracker&repo_name=DSA-Tracker&description=♾%20This%20app%20keeps%20Personalised%20track%20of%20questions%20completed%20in%20dsa%20preparation&github=true)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How To Use 
 
-### `npm test`
+From your command line, clone and run DSA-Tracker:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Clone this repository
+git clone https://github.com/initializ-templates/DSA-Tracker.git
 
-### `npm run build`
+# Go into the repository
+cd DSA-Tracker
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Setup default environment variables
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# For Linux
+cp env.example .env
+# For Windows
+copy env.example .env
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Install dependencies
+npm install
